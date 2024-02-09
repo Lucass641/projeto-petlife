@@ -15,85 +15,112 @@
         padding: 10px;
     }
 
-    #inicio{
+    #inicio {
         flex-direction: column;
         padding: 15px;
     }
-    
-    #inicio img{
+
+    #inicio img {
         width: 80vw;
         height: 300px;
     }
 
-    h1, h2{
+    h1,
+    h2 {
         font-size: 20px;
         margin-bottom: 15px;
     }
 
-    .botao, .botao-transparente{
-        padding: 10px 20px ;
+    .botao,
+    .botao-transparente {
+        padding: 10px 20px;
     }
 
-    #inicio .absolute{
-       width: 100%;
-       margin-bottom: 110px;
-       opacity: 0.9;
+    #inicio .absolute {
+        width: 100%;
+        margin-bottom: 110px;
     }
 
-    #clinica{
+    #clinica {
         flex-direction: column-reverse;
         padding: 15px;
     }
 
-    #clinica img{
+    #clinica img {
         width: 80vw;
         height: 300px;
     }
 
-    #farmacia{
+    #farmacia {
         flex-direction: column-reverse;
         padding: 15px;
     }
 
-    #farmacia img{
+    #farmacia img {
         margin: 0;
         width: 90vw;
         height: 300px;
     }
 
-    #duvidas{
+    #duvidas {
         flex-direction: column;
         padding: 15px;
     }
 
-    #duvidas img{
+    #duvidas img {
         width: 100vw;
         height: 300px;
     }
 
-    .duvida h3{
+    .duvida h3 {
         font-size: 11px;
         padding-top: 27px;
     }
 
-    .duvida img{
+    .duvida img {
         max-height: 8px;
         max-width: 14px;
     }
 
-    footer{
+    footer {
         flex-direction: column;
         padding: 20px 20px 0 20px;
         gap: 10px;
     }
 
     footer img,
-footer .titulo {
-    margin-bottom: 15px;
+    footer .titulo {
+        margin-bottom: 15px;
+    }
+
+    footer nav a {
+        margin-bottom: 10px;
+    }
+
 }
 
-footer nav a {
-    margin-bottom: 10px;
-}
+@media (max-width: 395px) {
 
+    header a {
+        padding-top: 10px;
+    }
+
+    .botao,
+    .botao-transparente {
+        padding: 10px 10px;
+    }
+
+    #inicio .absolute {
+        width: 100vw;
+        padding-bottom: 115px;
+    }
+
+    .duvida h3 {
+        padding: 25px 20px 20px 20px;
+    }
+
+    .duvida img {
+        max-height: 8px;
+        max-width: 15px;
+    }
 }
