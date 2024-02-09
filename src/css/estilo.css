@@ -5,12 +5,12 @@
     padding: 0;
 }
 
-body{
+body {
     color: #263138;
 }
 
 
-header{
+header {
     background-color: #FF9A6C;
     display: flex;
     align-items: center;
@@ -34,7 +34,8 @@ header nav a {
     position: relative;
 }
 
-h1, h2{
+h1,
+h2 {
     font-weight: 600;
     font-size: 32px;
     margin-bottom: 32px;
@@ -45,7 +46,7 @@ h1, h2{
     margin-bottom: 32px;
 }
 
-.botao{
+.botao {
     background-color: #FF725E;
     border-radius: 8px;
     color: #FFFFFF;
@@ -53,14 +54,14 @@ h1, h2{
     text-decoration: none;
 }
 
-.botao-transparente{
+.botao-transparente {
     background-color: transparent;
     color: #FF725E;
     padding: 16px 32px;
     text-underline-offset: 4px;
 }
 
-.absolute{
+.absolute {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -68,57 +69,57 @@ h1, h2{
     z-index: -10;
 }
 
-#clinica{
+#clinica {
     display: flex;
     align-items: center;
     gap: 64px;
     padding: 64px 80px;
 }
 
-#clinica li{
+#clinica li {
     margin-bottom: 16px;
     margin-left: 32px;
 }
 
-#farmacia{
+#farmacia {
     padding: 64px 80px;
     text-align: center;
 }
 
-#farmacia img{
+#farmacia img {
     margin: 64px auto;
 }
 
-#farmacia .paragrafo{
+#farmacia .paragrafo {
     max-width: 950px;
     margin: 0 auto;
 }
 
-#duvidas{
+#duvidas {
     display: flex;
     align-items: center;
     gap: 64px;
     padding: 64px 80px;
 }
 
-.duvida{
+.duvida {
     position: relative;
 }
 
-.duvida h3{
+.duvida h3 {
     border: 2px solid #FF725E;
     border-radius: 8px;
     cursor: pointer;
     padding: 24px;
 }
 
-.duvida img{
+.duvida img {
     position: absolute;
     top: 32px;
     right: 24px;
 }
 
-.duvida .paragrafo{
+.duvida .paragrafo {
     border-right: 1px solid #FF725E;
     border-left: 1px solid #FF725E;
     border-bottom: 1px solid #FF725E;
@@ -131,13 +132,13 @@ h1, h2{
     transition: .2s;
 }
 
-.duvida.ativa .paragrafo{
+.duvida.ativa .paragrafo {
     height: fit-content;
     opacity: 1;
     padding: 24px;
 }
 
-footer{
+footer {
     background-color: rgba(255, 152, 108, 0.25);
     display: flex;
     justify-content: space-between;
@@ -145,19 +146,20 @@ footer{
     padding: 64px 80px;
 }
 
-footer img, footer .titulo{
+footer img,
+footer .titulo {
     display: block;
     font-weight: 600;
     margin-bottom: 24px;
     font-size: 17px;
 }
 
-footer nav a{
+footer nav a {
     color: #263138;
     display: block;
     margin-bottom: 16px;
     text-decoration: none;
-    
+
 }
 
 footer p {
@@ -165,12 +167,12 @@ footer p {
     max-width: 300px;
 }
 
-footer p a{
+footer p a {
     color: #263138;
     text-decoration: none;
 }
 
-#copyright{
+#copyright {
     background-color: #263138;
     color: #FFFFFF;
     padding: 24px;

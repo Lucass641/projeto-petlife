@@ -1,0 +1,99 @@
+@media (max-width: 425px) {
+
+    header {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    header a {
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+    }
+
+    header nav a {
+        margin-top: 5px;
+        padding: 10px;
+    }
+
+    #inicio{
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    #inicio img{
+        width: 80vw;
+        height: 300px;
+    }
+
+    h1, h2{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .botao, .botao-transparente{
+        padding: 10px 20px ;
+    }
+
+    #inicio .absolute{
+       width: 100%;
+       margin-bottom: 110px;
+       opacity: 0.9;
+    }
+
+    #clinica{
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+
+    #clinica img{
+        width: 80vw;
+        height: 300px;
+    }
+
+    #farmacia{
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+
+    #farmacia img{
+        margin: 0;
+        width: 90vw;
+        height: 300px;
+    }
+
+    #duvidas{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    #duvidas img{
+        width: 100vw;
+        height: 300px;
+    }
+
+    .duvida h3{
+        font-size: 11px;
+        padding-top: 27px;
+    }
+
+    .duvida img{
+        max-height: 8px;
+        max-width: 14px;
+    }
+
+    footer{
+        flex-direction: column;
+        padding: 20px 20px 0 20px;
+        gap: 10px;
+    }
+
+    footer img,
+footer .titulo {
+    margin-bottom: 15px;
+}
+
+footer nav a {
+    margin-bottom: 10px;
+}
+
+}
